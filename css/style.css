@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.barra-dscto {
+  background-color: #d1891c;
+  font-size: 0.8rem;
+  padding: 3px 20px;
+}
+
+.titulo {
+  background-color: #00669f;
+  color: #ffffff;
+  padding: 15px 20px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.titulo h1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 80px 0;
+  align-items: top;
+  position: relative;
+}
+
+.fa-plus {
+  color: #ffffff;
+  background-color: #00669f;
+  font-size: 1.5rem;
+  padding: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 49%;
+  right: 10px;
+}
+
+.card {
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: 250px;
+  height: 500px;
+  margin: 30px 30px;
+}
+
+.head-card {
+  position: relative;
+}
+
+.img-card {
+  width: 250px;
+  border-radius: 20px 20px 0 0;
+}
+
+.icon-card {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.img-perfil {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+
+.info-card {
+  padding: 10px 16px;
+  text-align: center;
+}
+
+.titulo-card {
+  font-size: 1.25rem;
+  margin: 40px 0 10px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.bio-card {
+  font-size: 0.8rem;
+  color: #333333;
+  text-align: left;
+}
+
+.btn-card {
+  background-color: #00669f;
+  padding: 15px 37px;
+  margin-top: 30px;
+  font-size: 0.8rem;
+  color: #f3f3f3;
+  border: none;
+  cursor: pointer;
+}
+
+.copyright {
+  background-color: #00669f;
+  color: #fff9f9;
+  font-size: 0.6rem;
+  font-weight: 400;
+  padding: 15px 32px;
+  position: relative;
+  text-align: center;
+}
+
+.copyright img {
+  width: 35px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+@media (min-width: 768px) {
+  .barra-dscto {
+    font-size: 1rem;
+    padding: 3px 40px;
+  }
+
+  .titulo {
+    padding: 15px 40px;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+  .copyright img {
+    width: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .barra-dscto {
+    padding: 3px 65px;
+  }
+
+  .titulo {
+    padding: 25px 65px;
+  }
+
+  .titulo h1 {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  .fa-plus {
+    display: none;
+  }
+
+  .cards {
+    margin-top: 50px;
+    padding: 80px 65px;
+  }
+
+  .card {
+    height: 600px;
+    width: 300px;
+  }
+
+  .img-card {
+    width: 300px;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .img-perfil {
+    height: 120px;
+    width: 120px;
+  }
+
+  .titulo-card {
+    font-size: 1.5rem;
+    margin: 60px 0 15px 0;
+  }
+
+  .bio-card {
+    font-size: 1rem;
+  }
+
+  .btn-card {
+    font-size: 1rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+  
+  .copyright img {
+    width: 60px;
+    top: 14px;
+    right: 20px;
+  }
+
+}
